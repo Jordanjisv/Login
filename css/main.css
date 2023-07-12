@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(236, 242, 250);
+
+}
+header{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+header .encabezado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+header h2{
+    color: #4f4f4f;
+    display: flex;
+    margin-left: 40px;
+    font-size: 40px;
+}
+
+
+main{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 100%;
+    height: 125vh;
+    background-image: url("../img/fondo.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+main .superior, main .medio, main .inferior{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+    
+}
+
+.bloque{
+    width: calc(100% - 20px);
+    margin-top: 10px;
+    height: 450px;
+    background-color: rgba(79, 77, 77, 0.5);
+    border-radius: 5px;
+    margin-left: 10px;
+    display: grid;
+    grid-template-rows: 1fr 2fr 3fr;
+    border: 1.5px solid;
+    border-color: #000;
+}
+
+.bloque .imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloque img{
+    border-radius: 8px;
+}
+.bloque .titulo{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.bloque .descripcion{
+    color: #fff;
+    display: flex;
+    width: calc(100% - 50px);
+    margin-left: 25px;
+    margin-bottom: 20px;
+    justify-content:center;
+    align-items:  center;
+    font-size: 18px;
+}
+
+/*.inferior{
+
+    width: calc(100% - 20px);
+    margin-left: 10px;
+    height: 200px;
+    margin-top: 20px;
+    
+    background-color: rgba(204, 203, 203, 0.8);
+    border-radius: 5px;
+    padding-bottom: 10px;
+    border: 1.5px solid;
+    border-color: #fff;
+    
+}
+
+form{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 0.5fr;
+
+}
+
+form .formsuperior{
+    
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+}
+
+form .forminferior{
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+}
+
+form .botones{
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+input{
+    background-color: rgba(207, 207, 207, 0.7);
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 5px;
+    padding-left: 25px;
+}
+
+.campos{
+    background-color: rgba(44, 44, 44, 0.5);
+    border-radius: 5px;
+    height: 55px;
+    width: 310px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+input::placeholder{
+    color: #4f4f4f;
+}
+
+button{
+    width: 100px;
+    height: 45px;
+    background-color: #878787;
+    border: 1px solid;
+    border-color: #fff;
+    border-radius: 5px
+}*/
